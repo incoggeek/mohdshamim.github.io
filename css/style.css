@@ -3,3 +3,7 @@
 *{
     font-family: Poppins;
 }
+
+.container-fluid h3{
+    font-weight: bold;
+}
