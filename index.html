@@ -35,9 +35,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#skills"><i class="fa-solid fa-user-check mx-2"></i>Skills</a>
                     </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#qualification"><i
+                                class="fa-solid fa-book-open-reader mx-2"></i>Qualification</a>
+                    </li>
+
                     <li class="nav-item">
                         <a class="nav-link" href="#services"><i class="fa-solid fa-briefcase mx-2"></i>Services</a>
                     </li>
+
                     <div class="dropdown position-absolute bottom-0 end-0 mx-4 my-2">
                         <button class="btn dropdown-toggle btn-info btn-group dropstart" type="button"
                             id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -65,7 +72,7 @@
     <img src="image/banner.jpg" class="img-fluid" alt="banner">
 
     <!-- About -->
-    <div class="container">
+    <div class="container" id="about">
         <h3 class="text-center mt-5">About Me</h3>
         <p class="text-center">My introduction</p>
     </div>
@@ -106,62 +113,110 @@
 
 
     <!-- Skills -->
-    <div class="container">
+    <div class="container" id="skills">
         <h3 class="text-center mt-5">Skills</h3>
-        <p class="text-center">My Technical and Non-Techincal skills</p>
+        <p class="text-center">Technical and Non-Techincal</p>
     </div>
 
-
-    <div class="accordion container" id="accordionPanelsStayOpenExample">
+    <div class="accordion accordion-flush container" id="accordionFlushExample">
         <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
-                    aria-controls="panelsStayOpen-collapseOne">
+            <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
                     Technical Skills
                 </button>
             </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
-                aria-labelledby="panelsStayOpen-headingOne">
-                <div class="accordion-body">
-                    <ul >
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Bootstrap</li>
-                        <li>Python</li>
-                        <li>MySQL</li>
+            <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample">
+                <ul class="mt-3">
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Bootstrap</li>
+                    <li>Python</li>
+                    <li>MySQL</li>
 
-                    </ul>
-                </div>
+                </ul>
+
             </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <h2 class="accordion-header" id="flush-headingTwo">
                 <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
-                    aria-controls="panelsStayOpen-collapseTwo">
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
                     Non-Technical Skills
                 </button>
             </h2>
-            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
-                aria-labelledby="panelsStayOpen-headingTwo">
-                <div class="accordion-body">
-                    <ul >
-                        <li>Blogging</li>
-                        <li>Problem solving</li>
-                        <li>Attention to details</li>
-                        <li>Quick learner</li>
-                        
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample">
+                <ul class="mt-3">
+                    <li>Blogging</li>
+                    <li>Problem solving</li>
+                    <li>Attention to details</li>
+                    <li>Quick learner</li>
 
-                    </ul>
-                </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Qualification -->
+
+    <div class="container" id="qualification">
+        <h3 class="text-center mt-5">Qualification</h3>
+        <p class="text-center">My Journey</p>
+    </div>
+
+    <div class="row d-flex justify-content-center text-center" id="experience-sec">
+        <div class="col-md-4 col-sm-12" id="qual-sec">
+            <h4>Bachelor of Computer Applications (BCA)</h4>
+            <h5>Jamia hamdard, Delhi</h5>
+            <h6>2020-2023</h6>
+        </div>
+
+        <div class="col-md-4 col-sm-12" id="qual-sec">
+            <h4>Intermediate of Commerce (I.com)</h4>
+            <h5>Gaya College,Gaya</h5>
+            <h6>2018-2020</h6>
+        </div>
+
+        <div class="col-md-4 col-sm-12" id="qual-sec">
+            <h4>Matriculation</h4>
+            <h5>High School Sirdala, Nawada</h5>
+            <h6>2015-2018</h6>
+        </div>
+    </div>
+    <!-- Services -->
+    <div class="container" id="services">
+        <h3 class="text-center mt-5">Services</h3>
+        <p class="text-center">What I offer</p>
+    </div>
+
+    <div class="row d-flex justify-content-center" id="services">
+        <div class="card mx-3" style="width: 18rem;">
+            <img src="image/web-design.png" class="card-img-top" alt="web-design">
+            <div class="card-body">
+                
+                <h5 class="card-title">Frontend Development</h5>
+                <a href="#" class="btn btn-primary">View more</a>
             </div>
         </div>
 
-    </div>
+        <div class="card mx-3" style="width: 18rem;">
+            <img src="image/search-engine-optimization.png" class="card-img-top" alt="seo">
+            <div class="card-body">
+                <h5 class="card-title">Search Engine Optimization</h5>
+                <a href="#" class="btn btn-primary">View more</a>
+            </div>
+        </div>
 
-    <!-- Services -->
+        <!-- <div class="card mx-3" style="width: 18rem;">
+            <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <a href="#" class="btn btn-primary">View more</a>
+            </div>
+        </div> -->
+    </div>
 
     <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"

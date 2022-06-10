@@ -25,10 +25,28 @@
     border-radius: 15px;
 }
 
+#qual-sec a{
+    text-decoration: none;
+    color: black;
+}
+
+#qual-sec h4{
+    font-size: 18px;
+}
+#qual-sec h5{
+    font-size: 14px;
+}
+#qual-sec h6{
+    font-size: 12px;
+}
+
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
     #abt-section {
         margin: 0px 50px;
+    }
+    #qual-sec {
+        float: left;
     }
  }
 
@@ -41,11 +59,19 @@
     #ex-details {
         width: 250px;
     }
+
+    #qual-sec {
+        float: left;
+    }
 }
 
  /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { 
     #abt-section {
         margin: 0px 300px;
+    }
+
+    #qual-sec {
+        float: left;
     }
  }
