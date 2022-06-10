@@ -8,6 +8,44 @@
     font-weight: bold;
 }
 
-/* .col h4{
+.container h3{
     font-weight: bold;
-} */
+}
+
+#about-desc {
+    font-size: 18px;
+    text-align: justify;
+}
+
+#ex-details h4 {
+  font-weight: bold;
+}
+
+#abt-img {
+    border-radius: 15px;
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    #abt-section {
+        margin: 0px 50px;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    #abt-section {
+        margin: 0px 150px;
+    }
+
+    #ex-details {
+        width: 250px;
+    }
+}
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    #abt-section {
+        margin: 0px 300px;
+    }
+ }
