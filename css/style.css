@@ -50,6 +50,10 @@
     color: white;
 }
 
+.portfolio-img {
+    width: 500px;
+}
+
 
 /* Container holding the image and the text */
 #banner-con {
