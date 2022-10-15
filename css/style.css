@@ -54,17 +54,8 @@
     width: 500px;
 }
 
-
-/* Container holding the image and the text */
-#banner-con {
-    padding: 0px;
-  }
   
 
-  .text-block h1{
-    font-size: 70px;
-  }
-  
 /* Small devices (landscape phones, 320px and up) */
 @media (min-width: 320px) { 
     #copyright p {
